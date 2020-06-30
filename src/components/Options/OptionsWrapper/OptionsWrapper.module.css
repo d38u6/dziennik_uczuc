@@ -1,0 +1,12 @@
+.OptionsWrapper {
+  text-align: center;
+}
+.OptionsWrapper h3 {
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.OptionsWrapper button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

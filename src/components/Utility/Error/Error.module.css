@@ -1,0 +1,19 @@
+.ErrorWrapper {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Error h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Patrick Hand SC", sans-serif;
+  margin: 0.67em 0;
+}
+.Error i {
+  margin-right: 10px;
+  color: red;
+}

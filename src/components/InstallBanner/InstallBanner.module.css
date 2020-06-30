@@ -1,0 +1,16 @@
+.InstallBanner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 1.5rem);
+  z-index: 9999;
+  margin: 0.75rem;
+
+  background-color: #deefff;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border: 2px solid #0071de;
+  color: black;
+}

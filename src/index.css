@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha|Patrick%20Hand%20SC);
+html {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  color: #41403e;
+  font-size: 20px;
+  font-family: Neucha, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url(./assets/images/background.png);
+}
+span::before {
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+a {
+  background-image: linear-gradient(
+      5deg,
+      transparent 65%,
+      #0071de 80%,
+      transparent 90%
+    ),
+    linear-gradient(165deg, transparent 5%, #0071de 15%, transparent 25%),
+    linear-gradient(165deg, transparent 45%, #0071de 55%, transparent 65%),
+    linear-gradient(15deg, transparent 25%, #0071de 35%, transparent 50%);
+  background-position: 0 90%;
+  background-repeat: repeat-x;
+  background-size: 4px 3px;
+  text-decoration: none;
+}
+a:visited {
+  color: #41403e;
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.TabsItem {
+  color: #c1c0bd;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0 0 -1px;
+  padding: 0.75rem;
+  text-align: center;
+}
+.TabsItem:hover {
+  color: #868e96;
+  cursor: pointer;
+}
+.TabsItem.Active {
+  border-bottom: 3px solid #0071de;
+  color: #41403e;
+}

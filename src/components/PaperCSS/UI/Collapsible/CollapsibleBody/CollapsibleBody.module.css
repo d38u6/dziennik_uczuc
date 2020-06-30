@@ -1,0 +1,16 @@
+.CollapsibleBody {
+  transition: all 235ms ease-in-out 0s;
+  background-color: hsla(0, 0%, 80%, 0.03);
+  border-bottom: 1px solid #e6e7e9;
+  margin: 0;
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0 0.75rem;
+}
+
+.CollapsibleBody.Show {
+  opacity: 1;
+  max-height: 960px;
+  padding: 0.75rem;
+}

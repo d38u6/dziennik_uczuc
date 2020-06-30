@@ -1,0 +1,22 @@
+.MenuButton {
+  cursor: pointer;
+}
+.MenuButton div {
+  background-color: #41403e;
+  border-bottom: 5px solid #41403e;
+  border-bottom-left-radius: 15px 5px;
+  border-bottom-right-radius: 15px 3px;
+  color: #41403e;
+  margin: 6px 0;
+  transition: 0.4s;
+  width: 2rem;
+}
+.Open .Bar1 {
+  transform: rotate(-45deg) translate(-9px, 7px);
+}
+.Open .Bar2 {
+  opacity: 0;
+}
+.Open .Bar3 {
+  transform: rotate(45deg) translate(-8px, -9px);
+}

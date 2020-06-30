@@ -1,0 +1,106 @@
+.Button {
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  transition: all 235ms ease 0s;
+  box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+  transition: all 235ms ease-in-out 0s;
+  align-self: center;
+  background: 0 0;
+  border: 2px solid #41403e;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  outline: 0;
+  font-family: Neucha, sans-serif;
+  padding: 0.75rem;
+}
+@media only screen and (max-width: 520px) {
+  .Button {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.Button.Large {
+  transition: all 235ms ease 0s;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  padding: 1rem;
+}
+.Button.Small {
+  transition: all 235ms ease 0s;
+  box-shadow: 10px 19px 17px -13px rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+  padding: 0.3rem;
+}
+.Button.Block {
+  display: block;
+  width: 100%;
+}
+.Button:hover {
+  transform: translate3d(0, 2px, 0);
+  box-shadow: 2px 8px 8px -5px rgba(0, 0, 0, 0.3);
+}
+.Button:focus {
+  border: 2px solid #0071de;
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
+}
+.Button:active {
+  border-color: rgba(0, 0, 0, 0.2);
+  transition: none;
+}
+.Button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.Button.Primary {
+  background-color: #c1c0bd;
+  border-color: #41403e;
+  color: #fff;
+}
+.Button.Primary:hover:active {
+  background-color: #a8a6a3;
+}
+
+.Button.Secondary {
+  background-color: #deefff;
+  border-color: #0071de;
+  color: #41403e;
+}
+.Button.Secondary:hover:active {
+  background-color: #abd6ff;
+}
+
+.Button.Success {
+  background-color: #d0dbc2;
+  border-color: #86a361;
+  color: #313b24;
+}
+.Button.Success:hover:active {
+  background-color: #b7c9a1;
+}
+
+.Button.Warning {
+  background-color: #f5f0c6;
+  border-color: #ddcd45;
+  color: #41403e;
+}
+.Button.Warning:hover:active {
+  background-color: #ede49b;
+}
+
+.Button.Danger {
+  background-color: #f0cbc9;
+  border-color: #a7342d;
+  color: #41403e;
+}
+.Button.Danger:hover:active {
+  background-color: #e6a5a1;
+}
+.Button i {
+  margin-right: 5px;
+}

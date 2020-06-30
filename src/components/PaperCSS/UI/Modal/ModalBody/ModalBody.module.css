@@ -1,0 +1,19 @@
+.ModalBody {
+  transition: all 235ms ease-in-out 0s;
+  position: relative;
+  top: 5.4rem;
+  left: 50%;
+  min-width: 480px;
+  width: fit-content;
+  backface-visibility: hidden;
+  background: #fff;
+  border: 2px solid #e6e7e9;
+  padding: 1.25rem;
+  transform: translate(-50%);
+}
+@media only screen and (max-width: 479px) {
+  .ModalBody {
+    width: 100%;
+    min-width: 0px;
+  }
+}

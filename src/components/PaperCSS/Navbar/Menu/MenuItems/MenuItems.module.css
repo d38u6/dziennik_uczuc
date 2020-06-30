@@ -1,0 +1,48 @@
+.MenuItems {
+  transition: all 235ms ease-in-out 0s;
+  background-color: hsla(0, 0%, 80%, 0.03);
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0 0.75rem;
+}
+.MenuItems ul {
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+.MenuItems li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  font-size: 1.3rem;
+}
+.Open {
+  margin: 0;
+  max-height: 960px;
+  opacity: 1;
+  padding: 0;
+}
+/* input[id="menu-button"]:checked ~ div.MenuItems {
+  margin: 0;
+  max-height: 960px;
+  opacity: 1;
+  padding: 0;
+} */
+
+@media only screen and (min-width: 769px) {
+  .MenuItems {
+    display: contents;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .MenuItems ul {
+    text-align: center;
+  }
+  .MenuItems li {
+    display: block;
+    margin: 1rem 0;
+  }
+}

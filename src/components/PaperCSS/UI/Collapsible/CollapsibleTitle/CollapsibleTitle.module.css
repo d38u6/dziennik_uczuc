@@ -1,0 +1,16 @@
+.CollapsibleTitle {
+  border-bottom: 1px solid #e6e7e9;
+  color: #41403e;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0 0 -1px;
+  padding: 0.44rem;
+  text-align: center;
+}
+.CollapsibleTitle:hover {
+  color: #868e96;
+  cursor: pointer;
+}
+.CollapsibleTitle i {
+  float: right;
+}

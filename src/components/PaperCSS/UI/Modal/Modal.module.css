@@ -1,0 +1,28 @@
+.Modal {
+  transition: all 235ms ease-in-out 0s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  flex: 1 1 auto;
+  text-align: left;
+  word-wrap: break-word;
+  z-index: 120;
+}
+.Modal {
+  visibility: hidden;
+}
+.Modal.Show {
+  opacity: 1;
+  position: absolute;
+  visibility: visible;
+}
+.Modal.Show {
+  visibility: visible;
+}
+.Modal button {
+  margin-top: 25px;
+}

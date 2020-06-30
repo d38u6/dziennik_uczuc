@@ -1,0 +1,19 @@
+.Footer {
+  margin-bottom: 0.2rem;
+  margin-top: 0.3rem;
+  width: 100%;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.Time {
+  float: left;
+  color: #999;
+  width: 0;
+}
+.Remove {
+  cursor: pointer;
+}
+.Remove i {
+  margin-right: 5px;
+}

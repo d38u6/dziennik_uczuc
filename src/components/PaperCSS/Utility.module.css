@@ -1,0 +1,109 @@
+.Border {
+  border: 2px solid #41403e;
+}
+.Border,
+.Border-1,
+.Child-borders > :nth-child(6n + 1) {
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+}
+.Border-2,
+.Child-borders > :nth-child(6n + 2) {
+  border-bottom-left-radius: 185px 25px;
+  border-bottom-right-radius: 20px 205px;
+  border-top-left-radius: 125px 25px;
+  border-top-right-radius: 10px 205px;
+}
+.Border-3,
+.Child-borders > :nth-child(6n + 3) {
+  border-bottom-left-radius: 225px 15px;
+  border-bottom-right-radius: 15px 255px;
+  border-top-left-radius: 15px 225px;
+  border-top-right-radius: 255px 15px;
+}
+.Border-4,
+.Child-borders > :nth-child(6n + 4) {
+  border-bottom-left-radius: 25px 115px;
+  border-bottom-right-radius: 155px 25px;
+  border-top-left-radius: 15px 225px;
+  border-top-right-radius: 25px 150px;
+}
+.Border-5,
+.Child-borders > :nth-child(6n + 5) {
+  border-bottom-left-radius: 20px 115px;
+  border-bottom-right-radius: 15px 105px;
+  border-top-left-radius: 250px 15px;
+  border-top-right-radius: 25px 80px;
+}
+.Border-6,
+.Child-borders > :nth-child(6n + 6) {
+  border-bottom-left-radius: 15px 225px;
+  border-bottom-right-radius: 20px 205px;
+  border-top-left-radius: 28px 125px;
+  border-top-right-radius: 100px 30px;
+}
+.Child-borders > * {
+  border: 2px solid #41403e;
+}
+.Border-white {
+  border-color: #fff;
+}
+.Border-dotted {
+  border-style: dotted;
+}
+.Border-dashed {
+  border-style: dashed;
+}
+.Border-thick {
+  border-width: 5px;
+}
+.Border-primary {
+  border-color: #41403e;
+}
+.Border-secondary {
+  border-color: #0071de;
+}
+.Border-success {
+  border-color: #86a361;
+}
+.Border-warning {
+  border-color: #ddcd45;
+}
+.Border-danger {
+  border-color: #a7342d;
+}
+.Border-muted {
+  border-color: #868e96;
+}
+.Shadow {
+  transition: all 235ms ease 0s;
+  box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+}
+.Shadow.Shadow-large {
+  transition: all 235ms ease 0s;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+}
+.Shadow.Shadow-small {
+  transition: all 235ms ease 0s;
+  box-shadow: 10px 19px 17px -13px rgba(0, 0, 0, 0.2);
+}
+.Shadow.Shadow-hover:hover {
+  -webkit-transform: translate3d(0, 2px, 0);
+  transform: translate3d(0, 2px, 0);
+  box-shadow: 2px 8px 8px -5px rgba(0, 0, 0, 0.3);
+}
+.Child-shadows > * {
+  transition: all 235ms ease 0s;
+  box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+}
+.Child-shadows-hover > * {
+  transition: all 235ms ease 0s;
+  box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+}
+.Child-shadows-hover > :hover {
+  -webkit-transform: translate3d(0, 2px, 0);
+  transform: translate3d(0, 2px, 0);
+  box-shadow: 2px 8px 8px -5px rgba(0, 0, 0, 0.3);
+}

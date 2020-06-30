@@ -1,0 +1,11 @@
+.RecordSection {
+  display: inline-block;
+  padding: 0.3rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  color: #41403e;
+  margin: 0.4rem;
+}
+.RecordSection i {
+  margin-right: 10px;
+}

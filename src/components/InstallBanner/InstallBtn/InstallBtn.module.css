@@ -1,0 +1,23 @@
+.InstallBtnWrapper {
+  margin-bottom: 0.5rem;
+}
+.InstallBtn {
+  border: 2px solid white;
+  transition: all 235ms ease 0s;
+  color: white;
+  font-size: 1.44rem;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+.InstallBtn i {
+  margin-right: 10px;
+}
+.InstallBtn:hover,
+.InstallBtn:active,
+.InstallBtn:focus {
+  cursor: pointer;
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
+}

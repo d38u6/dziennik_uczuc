@@ -1,0 +1,17 @@
+.OptionItem {
+  font-weight: 500;
+  padding: 0.2rem;
+  border-bottom: 2px solid white;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  word-break: break-all;
+}
+.OptionItem:hover {
+  border-color: #646464;
+}
+.Icon {
+  color: rgb(158, 35, 35);
+  cursor: pointer;
+  float: right;
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+.Menu {
+  margin: 0 1rem;
+}
+.Menu button {
+  background-color: #fff;
+  display: none;
+  font-size: 0.5rem;
+  margin-right: 1rem;
+  padding: 0.25rem;
+  position: absolute;
+  right: 0;
+  top: 0.1rem;
+}
+.Menu input {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Menu button {
+    display: block;
+  }
+}

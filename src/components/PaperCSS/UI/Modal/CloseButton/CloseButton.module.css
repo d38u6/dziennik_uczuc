@@ -1,0 +1,17 @@
+.CloseButton {
+  transition: all 235ms ease-in-out 0s;
+  color: #c1c0bd;
+  cursor: pointer;
+  font-size: 30px;
+  height: 1.1rem;
+  position: absolute;
+  right: 1rem;
+  text-decoration: none;
+  top: 1rem;
+  width: 1.1rem;
+}
+.CloseButton:active,
+.CloseButton:focus,
+.CloseButton:hover {
+  color: #41403e;
+}

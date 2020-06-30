@@ -1,0 +1,44 @@
+.Row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Row.Right {
+  justify-content: flex-end;
+}
+.Row.Center {
+  justify-content: center;
+}
+.Row.Edges {
+  justify-content: space-between;
+}
+.Row.Spaces {
+  justify-content: space-around;
+}
+.Row.Top {
+  align-items: flex-start;
+}
+.Row.Middle {
+  align-items: center;
+}
+.Row.Bottom {
+  align-items: flex-end;
+}
+.Paper {
+  background-color: #fff;
+  border: 1px solid #c1c0bd;
+  box-shadow: -1px 5px 35px -9px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+@media only screen and (max-width: 480px) {
+  .Paper {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+}

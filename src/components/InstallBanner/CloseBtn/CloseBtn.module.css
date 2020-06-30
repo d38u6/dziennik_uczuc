@@ -1,0 +1,11 @@
+.CloseBtn {
+  transition: all 235ms ease-in-out 0s;
+  color: #5b5a57;
+  cursor: pointer;
+  margin: 0.75rem 1.25rem 0 auto;
+}
+.CloseBtn:active,
+.CloseBtn:focus,
+.CloseBtn:hover {
+  color: #272625;
+}

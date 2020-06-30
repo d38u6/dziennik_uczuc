@@ -1,0 +1,8 @@
+.NotNowWrapper {
+  margin-bottom: 0.5rem;
+}
+.NotNow {
+  margin: auto;
+  padding: 0.44rem;
+  cursor: pointer;
+}
